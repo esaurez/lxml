@@ -54,6 +54,8 @@ class LxmlBuild(ZScript):
         cfg.output_files = [
             "dist/obj/liblxml_etree.a",
             "dist/obj/liblxml_elementpath.a",
+            "dist/obj/liblxml_etree.so",
+            "dist/obj/liblxml_elementpath.so",
             "test_lxml.elf",
         ]
         return cfg
